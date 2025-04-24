@@ -125,6 +125,7 @@ graph TD
     classDef default fill:#2a2a2a,stroke:#7a7a7a,color:white;
     classDef highlight fill:#4a4a4a,stroke:#7a7a7a,color:white;
     class A,K highlight
+
 ```
 
 </details>
@@ -147,6 +148,7 @@ graph LR
     classDef warning fill:#dc3545,stroke:#7a7a7a,color:white;
     class F success
     class G warning
+
 ```
 
 </details>
