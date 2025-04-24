@@ -153,21 +153,6 @@ graph LR
 
 ```
 
-</details>
-
-## 🌈 Color Reference
-
-<div align="center">
-
-| Color | Preview | Hex Code | Usage |
-|-------|---------|----------|--------|
-| Primary Blue | <img src="https://via.placeholder.com/50/007bff/FFFFFF?text=+" height="30px" width="30px"/> | `#007bff` | Headers |
-| Success Green | <img src="https://via.placeholder.com/50/28a745/FFFFFF?text=+" height="30px" width="30px"/> | `#28a745` | Success States |
-| Warning Yellow | <img src="https://via.placeholder.com/50/ffc107/FFFFFF?text=+" height="30px" width="30px"/> | `#ffc107` | Warnings |
-| Danger Red | <img src="https://via.placeholder.com/50/dc3545/FFFFFF?text=+" height="30px" width="30px"/> | `#dc3545` | Errors |
-
-</div>
-
 ## 📝 License
 
 <details>
