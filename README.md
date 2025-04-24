@@ -7,7 +7,7 @@
 [![Python](https://img.shields.io/badge/Python-3.7+-blue.svg?style=for-the-badge&logo=python&logoColor=white&labelColor=4B8BBE)](https://www.python.org)
 [![Security](https://img.shields.io/badge/Security-Cryptography-red.svg?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAdgAAAHYBTnsmCAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAADSSURBVCiRrdIxSgNBFMbx374NFnZpFEEQBCWgYGFhYWEhWHkDK0s7j+EFPICFhYVgYWFhYSGCRbAIhBAIJBvz7FLIGje7+ZqZ/zfzzcwLSZL8iqIoGGPcwzUucYJTHGAvxtgryxL/EYZhGF7wlmXZR3NGzXR3OByuiqL4rMK+74dhWN5q4HmeH8/FKshxgyecoYNLvOMDp6vxXfvYbKh0OF/L+r4/mhX0J8Kt4B7XeJRk6qRr4Q4vcI8kSU7/BNV9dizwLcRGVVV7f9W5FbgV+A3kqy+x7LiuUQAAAABJRU5ErkJggg==)](https://en.wikipedia.org/wiki/Cryptography)
 [![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-[![Stars](https://img.shields.io/github/stars/yourusername/Lab_ATBMTT?style=for-the-badge&logo=github&color=yellow)](https://github.com/yourusername/Lab_ATBMTT/stargazers)
+[![Stars](https://img.shields.io/github/stars/let-shyn-cook/hash?style=for-the-badge&logo=github&color=yellow)](https://github.com/yourusername/Lab_ATBMTT/stargazers)
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="snake animation" width="100%"/>
