@@ -109,22 +109,23 @@ print(decrypted)  # Output: HELLO WORLD
 ```mermaid
 %%{init: {'theme':'dark'}}%%
 graph TD
-    A[Start] -->|Input| B[Input Plain Text]
-    B -->|Set| C[Set Shift Value]
-    C -->|Process| D[For each character in text]
-    D -->|Check| E{Is character a letter?}
-    E -- Yes -->|Transform| F[Shift character by shift value]
-    E -- No -->|Skip| G[Keep character as is]
-    F -->|Combine| H[Add to result]
-    G -->|Combine| H
-    H -->|Loop| I{More characters?}
-    I -- Yes -->|Continue| D
-    I -- No -->|Finish| J[Return encrypted/decrypted text]
-    J -->|End| K[End]
+    A[Start] --> B[Input Plain Text]
+    B --> C[Set Shift Value]
+    C --> D[For each character in text]
+    D --> E{Is character a letter?}
+    E -->|Yes| F[Shift character by shift value]
+    E -->|No| G[Keep character as is]
+    F --> H[Add to result]
+    G --> H
+    H --> I{More characters?}
+    I -->|Yes| D
+    I -->|No| J[Return encrypted/decrypted text]
+    J --> K[End]
 
     classDef default fill:#2a2a2a,stroke:#7a7a7a,color:white;
     classDef highlight fill:#4a4a4a,stroke:#7a7a7a,color:white;
     class A,K highlight
+
 
 ```
 
@@ -136,18 +137,19 @@ graph TD
 ```mermaid
 %%{init: {'theme':'dark'}}%%
 graph LR
-    A[File 1] -->|Read| C[Calculate Hash]
-    B[File 2] -->|Read| D[Calculate Hash]
-    C -->|Compare| E{Compare Hashes}
-    D -->|Compare| E
-    E -- Match -->|Success| F[Files are identical]
-    E -- Different -->|Warning| G[Files are different]
+    A[File 1] --> C[Calculate Hash]
+    B[File 2] --> D[Calculate Hash]
+    C --> E{Compare Hashes}
+    D --> E
+    E --> F[Files are identical]
+    E --> G[Files are different]
 
     classDef default fill:#2a2a2a,stroke:#7a7a7a,color:white;
     classDef success fill:#28a745,stroke:#7a7a7a,color:white;
     classDef warning fill:#dc3545,stroke:#7a7a7a,color:white;
     class F success
     class G warning
+
 
 ```
 
